@@ -3,5 +3,4 @@
 
 [![CRAN/METACRAN](https://img.shields.io/cran/l/devtools.svg)](LICENSE)
 
-.. image:: https://img.shields.io/github/license/EvieePy/TwitchIO.svg
-    :target: LICENSE
+[![Python Version](https://img.shields.io/badge/Python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
