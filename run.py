@@ -6,14 +6,15 @@ if __name__ == '__main__':
     tkns = {}
 
     with open("tokens.json", 'r') as tFile:
-        tkns = json.read(tFile)
+        tkns = json.load(tFile)
 
     options = {
-        "client_id": tkns["client_id"],
-        "irc_token": tkns["auth_token"],
-        "initial_channels": ["annie_butt"],
-        "nick": tkns["nick"],
-        "prefix": "!"
+        "client_id": tkns["twitch"]["client_id"],
+        "irc_token": tkns["twitch"]["auth_token"],
+        "initial_channels": ["downtosky"],
+        "nick": tkns["twitch"]["nick"],
+        "prefix": "!",
+        "riot_key": tkns["riot"]["key"]
     }
-    bot = Bot()
+    bot = Bot(**options)
     bot.run()

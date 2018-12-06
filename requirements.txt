@@ -1,1 +1,2 @@
+cassiopeia==3.0.21
 git+https://github.com/TwitchIO/TwitchIO.git
