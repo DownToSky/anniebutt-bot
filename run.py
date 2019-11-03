@@ -11,7 +11,7 @@ if __name__ == '__main__':
     options = {
         "client_id": tkns["twitch"]["client_id"],
         "irc_token": tkns["twitch"]["auth_token"],
-        "initial_channels": ["downtosky"],
+        "initial_channels": ["anniebot"],
         "nick": tkns["twitch"]["nick"],
         "prefix": "!",
         "riot_key": tkns["riot"]["key"]
